@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="661.0" prefWidth="510.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sortingalgorithmsimulator.CreateConnectionController">
+   <children>
+      <Label layoutX="76.0" layoutY="32.0" prefHeight="77.0" prefWidth="364.0" text="Sorting Algorithm Simulator" textFill="#0000009b">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="76.0" layoutY="146.0" mnemonicParsing="false" onAction="#setBubbleSort" prefHeight="50.0" prefWidth="199.0" text="Bubble Sort" textFill="#00000084">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="76.0" layoutY="214.0" mnemonicParsing="false" onAction="#setInsertionSort" prefHeight="50.0" prefWidth="199.0" text="Insertion Sort" textFill="#00000090">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="76.0" layoutY="285.0" mnemonicParsing="false" onAction="#setSelectionSort" prefHeight="50.0" prefWidth="199.0" text="Selection Sort" textFill="#00000092">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="76.0" layoutY="354.0" mnemonicParsing="false" onAction="#setMergeSort" prefHeight="50.0" prefWidth="199.0" text="Merge Sort" textFill="#00000099">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="76.0" layoutY="425.0" mnemonicParsing="false" onAction="#setQuickSort" prefHeight="50.0" prefWidth="199.0" text="Quick Sort" textFill="#000000ab">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="76.0" layoutY="497.0" mnemonicParsing="false" onAction="#setHeapSort" prefHeight="50.0" prefWidth="199.0" text="Heap Sort" textFill="#00000090">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
